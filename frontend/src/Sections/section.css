@@ -1,0 +1,30 @@
+.home{
+    background: url('../assets/extra/hero.png'), linear-gradient(var(--primary-color), var(--secondary-color), var(--primary-color));
+    height: 100vh;
+}
+.highlight{
+    color: var(--header-text)
+}
+.atr-img{
+    mix-blend-mode:overlay;
+}
+#orderBtn{
+    border: 2px solid var(--primary-color)
+}
+#orderBtn:hover{
+    background-color: var(--primary-color);
+}
+
+/* Update Section*/
+.trunc{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+}
+.flip{
+    transform: scaleX(-1);
+}
+.transparent-container{
+    background-color: #5663634D;
+}

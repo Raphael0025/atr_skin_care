@@ -1,0 +1,3 @@
+.landingPage{
+    background: linear-gradient(to bottom, var(--grad-start), var(--grad-mid), var(--grad-end));
+}
