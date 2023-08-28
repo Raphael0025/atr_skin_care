@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'react-tooltip/dist/react-tooltip.css'
+
 import 'animate.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

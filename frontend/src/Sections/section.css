@@ -28,3 +28,17 @@
 .transparent-container{
     background-color: #5663634D;
 }
+
+/* services */
+.gri{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 10px 1px var(--black);
+}
+.card:hover{
+    transform: translateY(-10px) translateX(-5px);
+    box-shadow: 10px 20px 1px var(--black);
+}
