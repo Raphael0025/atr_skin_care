@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiSolidQuoteLeft, BiSolidQuoteRight } from 'react-icons/bi'
 
-const SliderCard = ({data}) => {
+const SliderCard = ({data}) => { 
     return (
         <div className='rounded-4 p-5 mx-3 gap-3 transparent-bg border border-dark border-2 d-flex'>
             {data.icon}

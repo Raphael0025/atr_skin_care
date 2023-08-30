@@ -1,27 +1,27 @@
 import React from 'react'
-import { SliderCard } from '../Components'
+import { CardItem } from '../Components'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Testimonials = ({contents}) => { 
+const ProductShowcase = ({productData}) => {
     const settings = {
         dots: false,
         speed: 500,
         arrows: true,
         infinite: true,
         slidesToScroll: 1,
-        slidesToShow: 1,
+        slidesToShow: 3,
     }
     return (
-        <div className='container'>
+        <div className='container p-3'>
             <Slider {...settings}>
-            {contents.map((content, indx) => (
-                <SliderCard key={indx} data={content}/>
+            {productData.map((product, indx) => (
+                <CardItem key={indx} data={product} />
             ))}
             </Slider>
         </div>
-    ) 
+    )
 }
 
-export default Testimonials
+export default ProductShowcase

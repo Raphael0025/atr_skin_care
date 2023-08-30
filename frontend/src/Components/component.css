@@ -69,3 +69,16 @@
 .transparent-bg{
     background-color: #FFFFFF40;
 }
+#item-card{
+    background-color: #fcdc29b0;
+}
+.detail{
+    background-color: #00000050;
+}
+.ic{
+    font-weight: bolder;
+}
+.footer{
+    color: rgb(255, 208, 0);
+    background-color: rgb(80, 61, 0);
+}
