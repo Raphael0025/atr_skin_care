@@ -14,8 +14,9 @@
   --grad-start: #B28B2AC9;
   --grad-end: #DEA416A6;
 }
-#root{
+/* #root{
+  height: 100%
 }
 .App{
-  
-}
+height: 100%;
+} */

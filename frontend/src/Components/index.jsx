@@ -6,7 +6,8 @@ import Testimonials from './Testimonials'
 import ProductShowcase from './ProductShowcase'
 import SliderCard from './SliderCard'
 import CardItem from './CardItem'
+import SideBar from './SideBar'
 
 import './component.css'
 
-export { Navbar, GradientHeader, Footer, ToolTip, Testimonials, SliderCard, CardItem, ProductShowcase }
+export { SideBar, Navbar, GradientHeader, Footer, ToolTip, Testimonials, SliderCard, CardItem, ProductShowcase }

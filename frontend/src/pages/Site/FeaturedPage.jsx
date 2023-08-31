@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeaturedPage = () => {
     return (
-        <div>FeaturedPage</div>
+        <main>FeaturedPage</main>
     )
 }
 

@@ -1,11 +1,13 @@
 import { Navbar } from '../src/Components'
-import { LandingPage } from '../src/pages/Site'
+import { LandingPage, NewsFeedPage, AboutPage, ContactPage } from '../src/pages/Site'
 
 function App() {
   return (
     <div className="App w-auto">
       <Navbar />
-      <LandingPage />
+      {/* <LandingPage /> */}
+      {/* <ContactPage /> */}
+      <AboutPage />
     </div>
   );
 }

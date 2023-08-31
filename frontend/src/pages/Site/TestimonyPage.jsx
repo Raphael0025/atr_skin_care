@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonyPage = () => {
     return (
-        <div>TestimonyPage</div>
+        <main>TestimonyPage</main>
     )
 }
 
