@@ -28,6 +28,7 @@
 }
 .nav-item{
     position: relative;
+    cursor: pointer;
     overflow: hidden; /* Hide the overflowing part of the decoration */
 }
 .nav-item::after {
@@ -84,4 +85,28 @@
 }
 .store{
     font-size: 11px;
+}
+.active{
+    background-color: #443a00a4;
+}
+.user-aside{
+    width: 250px;
+    flex: 0 0 auto;
+    background-color: #FAFF0440;
+}
+.business-hour{
+    background-color: #9b9b9b;
+    box-shadow: 4px 4px 12px 0px #303030c5;
+    cursor: default;
+}
+.business-hour:hover{
+    animation: animated-card 0.5s ease-in-out infinite alternate;
+}
+@keyframes animated-card {
+    from {
+        transform: translate(0px, 0px);
+    } to {
+        transform: translate(-10px, -10px);
+        box-shadow: 14px 14px 12px 0px #303030c5;
+    }
 }
