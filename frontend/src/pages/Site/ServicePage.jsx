@@ -6,8 +6,8 @@ const ServicePage = () => {
         <main className='container-fluid d-flex p-0 vh-100'>
             <section className='container-fluid overflow-y-scroll mt-5 px-5 py-3'>
                 <GradientHeader title={'Menu of Services'} />
-                <div className='rounded-3 p-4 row' style={{backgroundColor: '#B2830BBF'}}>
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                <div className='rounded-3 p-4 gr' style={{backgroundColor: '#B2830BBF'}}>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-lg-5 p-3 border border-dark border-1 rounded-3 bg-warning'>Dermatologica Facial Services</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>Deep Cleansing Facial (For Normal skin Tone)</li>
@@ -17,7 +17,7 @@ const ServicePage = () => {
                         </ul>
                     </div>
 
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-5 p-3 border border-dark border-1 rounded-3 bg-warning'>Therapeutic Facial Treatment</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>Acne Treatment</li>
@@ -26,7 +26,7 @@ const ServicePage = () => {
                         </ul>
                     </div>
 
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-5 p-3 border border-dark border-1 rounded-3 bg-warning'>Removal / Extraction / Excision</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>Warts Removal (Electrocautery)</li>
@@ -36,7 +36,7 @@ const ServicePage = () => {
                         </ul>
                     </div>
 
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-5 p-3 border border-dark border-1 rounded-3 bg-warning'>Skin Rejuvination</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>Lontophoresis Therapy + Facial</li>
@@ -45,7 +45,7 @@ const ServicePage = () => {
                         </ul>
                     </div>
 
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-5 p-3 border border-dark border-1 rounded-3 bg-warning'>RF + Cavitation LIPO</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>(Skin Tightening and Body contouring Treatment)</li>
@@ -54,7 +54,7 @@ const ServicePage = () => {
                         </ul>
                     </div>
 
-                    <div className='col-lg-6 col-md-6 col-sm-12 d-flex align-items-start p-3 gap-4'>
+                    <div className=' d-flex align-items-start p-3 gap-4'>
                         <h3 className='col-5 p-3 border border-dark border-1 rounded-3 bg-warning'>Laser Treatment</h3>
                         <ul className='px-5 py-4 border-top border-bottom border-1 border-dark' style={{backgroundColor: '#FFFFFF40'}}>
                             <li>IPL (for Facial, Skin Rejuvination, Wrinkle Removal, Figment Removal)</li>

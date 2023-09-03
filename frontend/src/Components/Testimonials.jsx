@@ -1,5 +1,6 @@
 import React from 'react'
 import { SliderCard } from '../Components'
+import { BsArrowRightCircleFill, BsArrowLeftCircleFill } from 'react-icons/bs'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -12,6 +13,8 @@ const Testimonials = ({contents}) => {
         infinite: true,
         slidesToScroll: 1,
         slidesToShow: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     }
     return (
         <div className='container'>
@@ -22,6 +25,20 @@ const Testimonials = ({contents}) => {
             </Slider>
         </div>
     ) 
+}
+
+function SampleNextArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <BsArrowRightCircleFill className={`${className} text-warning`} onClick={onClick} />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <BsArrowLeftCircleFill className={`${className} text-warning`} onClick={onClick} />
+    );
 }
 
 export default Testimonials
