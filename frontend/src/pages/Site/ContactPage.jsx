@@ -36,7 +36,6 @@ const ContactPage = () => {
                         <ToolTip title={'ATR Skin Care & Pharmacy Inc.'} id={'tip1'} place={'right'} />
                 </div>
             </section>
-            <Footer />
         </main>
     )
 }

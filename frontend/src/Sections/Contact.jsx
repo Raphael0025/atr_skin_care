@@ -9,11 +9,11 @@ const Contact = () => {
       <GradientHeader title={'Contact Us'} />
       <div className='gap-5 d-flex '>
         <HiMail size={72} data-tooltip-id='tip0' />
-          <ToolTip title={'GMail'} id={'tip0'} place={'bottom'} />
+          <ToolTip title={'atrpharmacy@gmail.com'} id={'tip0'} place={'bottom'} />
         <BiLogoFacebookCircle size={72} data-tooltip-id='tip1'/>
-          <ToolTip title={'Facebook'} id={'tip1'} place={'bottom'} />
+          <ToolTip title={'ATR Skin Care & Pharmacy Inc.'} id={'tip1'} place={'bottom'} />
         <BiSolidPhone size={72} data-tooltip-id='tip2'/>
-          <ToolTip title={'Contact'} id={'tip2'} place={'bottom'} />
+          <ToolTip title={'0917 838 1984'} id={'tip2'} place={'bottom'} />
       </div>
     </section>
   )

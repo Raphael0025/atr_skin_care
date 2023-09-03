@@ -1,39 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import icon from '../assets/logo/ATR Skin Care Logo.png'
 import { BsFillHandbagFill } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+    const [select, setSelected] = useState('home')
+
+    const handleItemClick = (state) => {
+        setSelected(state)
+    }
+
     return (
         <nav className='navbar navbar-expand-lg bg-dark px-5 fixed-top' data-bs-theme='dark'>
             <div className='container-fluid'>
-                <a className='navbar-brand' href='#home'>
+                <Link className='navbar-brand' to='/'>
                     <img src={icon} alt='logo' width='30' height='30' className='d-inline-block align-text-center me-2' />
                     ATR Skin Care
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                 <div id='navbarSupportedContent' className='collapse navbar-collapse'>
                     <ul className='navbar-nav gap-2 text-center ms-auto'>
                         {/* nav items */}
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#home'>Home</a>
+                        <li className={`nav-item ${select === 'home' ? 'active' : ''}`} onClick={() => handleItemClick('home')}>
+                            <Link className={`nav-link ${select === 'home' ? 'active' : ''}`} to='/'>Home</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#updates'>Updates</a>
+                        <li className={`nav-item ${select === 'feed' ? 'active' : ''}`} onClick={() => handleItemClick('feed')}>
+                            <Link className={`nav-link ${select === 'feed' ? 'active' : ''}`} to='/newsfeed'>Updates</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#services'>Services</a>
+                        <li className={`nav-item ${select === 'service' ? 'active' : ''}`} onClick={() => handleItemClick('service')}>
+                            <Link className={`nav-link ${select === 'service' ? 'active' : ''}`} to='/service'>Services</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#featured'>Featured</a>
+                        <li className={`nav-item ${select === 'feature' ? 'active' : ''}`} onClick={() => handleItemClick('feature')}>
+                            <Link className={`nav-link ${select === 'feature' ? 'active' : ''}`} to='/featured'>Featured</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#testimony'>Testimonials</a>
+                        <li className={`nav-item ${select === 'testimony' ? 'active' : ''}`} onClick={() => handleItemClick('testimony')}>
+                            <Link className={`nav-link ${select === 'testimony' ? 'active' : ''}`} to='/testimony'>Testimonials</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#about'>About Us</a>
+                        <li className={`nav-item ${select === 'about' ? 'active' : ''}`} onClick={() => handleItemClick('about')}>
+                            <Link className={`nav-link ${select === 'about' ? 'active' : ''}`} to='/about'>About Us</Link>
                         </li>
-                        <li className='nav-item'>
-                            <a className='nav-link' href='#contact'>Contact Us</a>
+                        <li className={`nav-item ${select === 'contact' ? 'active' : ''}`} onClick={() => handleItemClick('contact')}>
+                            <Link className={`nav-link ${select === 'contact' ? 'active' : ''}`} to='/contact'>Contact Us</Link>
                         </li>
                     </ul>
                     {/* Buttons */}

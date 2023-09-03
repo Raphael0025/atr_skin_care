@@ -14,9 +14,12 @@
   --grad-start: #B28B2AC9;
   --grad-end: #DEA416A6;
 }
-/* #root{
-  height: 100%
+::-webkit-scrollbar{
+  width: 5px;
 }
-.App{
-height: 100%;
-} */
+::-webkit-scrollbar-thumb{
+  background: var(--header-text);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--primary-color);
+}
