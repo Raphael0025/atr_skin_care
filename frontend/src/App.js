@@ -1,5 +1,5 @@
 import { Navbar } from '../src/Components'
-import { LandingPage, NewsFeedPage, AboutPage, ContactPage } from '../src/pages/Site'
+import { LandingPage, NewsFeedPage, AboutPage, ContactPage, ServicePage } from '../src/pages/Site'
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       <Navbar />
       {/* <LandingPage /> */}
       {/* <ContactPage /> */}
-      <AboutPage />
+      {/* <AboutPage /> */}
+      <ServicePage />
     </div>
   );
 }

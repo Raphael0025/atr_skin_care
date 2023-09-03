@@ -11,7 +11,7 @@ const AboutPage = () => {
     }
 
     return (
-        <main className='container-fluid con d-flex mt-0 pt-2 p-0 m-0 vh-100'>
+        <main className='container-fluid d-flex pt-2 p-0 m-0 vh-100'>
             <SideBar props={'pt-5 text-dark user-aside h-100'}>
                 <ul className='navbar-nav gap-3 pt-5'>
                     <li className={`nav-item p-2 px-4 ${select ? 'active' : ''}`} onClick={handleItemClick}>About Us</li>
