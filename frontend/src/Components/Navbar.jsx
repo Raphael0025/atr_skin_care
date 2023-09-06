@@ -45,9 +45,9 @@ const Navbar = () => {
                     </ul>
                     {/* Buttons */}
                     <form className='d-flex justify-content-center gap-3 p-2'>
-                        <button id='bag' className='btn btn-sm px-3 bag'>< BsFillHandbagFill size={24}/></button>
-                        <button id='navBtn-primary' className='btn btn-sm px-3 rounded-3'>Register</button>
-                        <button id='navBtn-dark' className='btn btn-sm px-3 rounded-3'>Login</button>
+                        <Link id='bag' to='/auth/forgot-password' className='btn btn-sm px-3 bag'><BsFillHandbagFill size={24}/></Link>
+                        <Link to='/auth/register' id='navBtn-primary' className='btn px-3 rounded-3 btn-sm'>Register</Link>
+                        <Link to='/auth/user-login' id='navBtn-dark' className='btn px-4 rounded-3 btn-sm'>Login</Link>
                     </form>
                 </div>
             </div>

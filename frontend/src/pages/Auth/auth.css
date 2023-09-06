@@ -1,0 +1,20 @@
+.backgroundLogin {
+    background: linear-gradient(145deg, #413F3F 3%, #413F3F 79%, rgba(186,147,0,1) 100%);    
+}
+.txt{
+    font-size: 0.7rem;
+}
+.lnk:hover{
+    text-decoration: underline;
+}
+.background-form{
+    background: rgba(52,50,40,0.5);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    box-shadow: inset -10px -10px 20px #1a1919,
+            inset 10px 10px 20px #686565;
+}
+.dropdown{
+    outline: none;
+
+}
